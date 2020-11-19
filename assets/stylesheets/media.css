@@ -1,12 +1,4 @@
 @media only screen and (max-width: 1024px) {
-  .main-art {
-    background-image: url("../img/darkbg.jpg");
-  }
-
-  .logo-img {
-    display: none;
-  }
-
   .main-art-date {
     grid-column: 1 / -1;
   }
@@ -14,6 +6,19 @@
   .main-art-title {
     font-size: 35px;
     font-weight: 400;
+  }
+
+  .nav-2-right-1 {
+    padding: 23px 20px;
+  }
+
+  .nav-img {
+    display: block;
+  }
+
+  .nav-2-left {
+    padding: 0 0 0 0;
+    align-items: center;
   }
 
   .little-title {
@@ -79,34 +84,32 @@
 }
 
 @media only screen and (max-width: 720px) {
-  header {
-    flex-direction: row;
+  .nav-1 {
+    display:none;
   }
 
-  .nav-1,
-  .nav-1-left,
-  .nav-1-right,
-  .nav-2-left {
-    flex-direction: column;
-  }
-
-  .nav-1 > *,
-  .nav-1-left > *,
-  .nav-1-right > *,
-  .nav-2-left > * {
-    margin: 5px 0;
-  }
-
-  .nav-2-right {
+  .nav-2-left-p{
     display: none;
   }
 
+  .burger {
+    display: block;
+  }
+  
   .sec-1 {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
       "main"
       "art1"
       "art2";
+  }
+
+  .logo-img {
+    width: 200px;
+  }
+
+  .main-art-date {
+    text-align: left;
   }
 
   .sec-2,

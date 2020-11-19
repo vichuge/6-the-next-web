@@ -16,6 +16,10 @@ h2 {
   font-family: 'Goldman', cursive;
 }
 
+.f42 {
+  color: #f42;
+}
+
 /* Header */
 header {
   display: flex;
@@ -70,7 +74,7 @@ header {
   padding: 18px 0 18px 20px;
 }
 
-.nav-2-right {
+.nav-2-right-1 {
   padding: 17px 15px;
   border-left: 1px solid#f1f1f1;
   font-size: 15px;
@@ -78,6 +82,21 @@ header {
 
 .search-a {
   color: #bfbfbf;
+}
+
+.nav-img {
+  background-color: black;
+  padding: 20px;
+  display: none;
+}
+
+.nav-logo-img {
+  width: 65px;
+  height: auto;
+}
+
+.burger {
+  display: none;
 }
 
 /* Section 1 */
@@ -467,4 +486,14 @@ footer {
   border-radius: 50%;
   padding: 12px 17px;
   font-size: 25px;
+}
+
+.footer-logo-img {
+  width: 35px;
+  height: auto;
+}
+
+.footer-logo-img2 {
+  width: 60px;
+  height: auto;
 }
