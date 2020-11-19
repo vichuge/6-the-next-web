@@ -159,7 +159,8 @@
     margin-top: 0;
   }
 
-  .footer-icons > i, .f1-options > p {
+  .footer-icons > i, 
+  .f1-options > p {
     margin-right: 5px;
   }
 }
