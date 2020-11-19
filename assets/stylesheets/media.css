@@ -1,15 +1,36 @@
 @media only screen and (max-width: 1024px) {
-  .main-art-date {
-    grid-column: 1 / -1;
+  .main-art {
+    background-image: url("../img/darkbg.jpg");
+    display: block;
   }
 
-  .main-art-hashtag {
-    margin-top: 20px;
+  .logo-img {
+    display: none;
+  }
+
+  .main-art-date {
+    grid-column: 1 / -1;
+    display: none;
+  }
+
+  .padding-hash {
+    margin-top: 277px;
+    font-size: 10px;
+  }
+
+  .little-hashtag {
+    margin-top: 110px;
+    font-size: 10px;
   }
 
   .main-art-title {
     font-size: 35px;
     font-weight: 400;
+  }
+
+  .main-art-author-date{
+    margin-top: 10px;
+    font-size: 10px;
   }
 
   .nav-2-right-1 {
@@ -100,6 +121,10 @@
     display: block;
   }
 
+  .main-art-hashtag {
+    margin-top: 145px;
+  }
+
   .sec-1 {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
@@ -114,6 +139,11 @@
 
   .main-art-date {
     text-align: left;
+  }
+
+  .main-art-title {
+    font-size: 17px;
+    font-weight: 400;
   }
 
   .sec-2,
