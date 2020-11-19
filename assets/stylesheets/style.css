@@ -260,8 +260,8 @@ article {
   align-items: center;
 }
 
-.div-sec3-right>p,
-.div-sec3-right>p>a {
+.div-sec3-right > p,
+.div-sec3-right > p > a {
   color: #ff4f2f;
 }
 
@@ -380,8 +380,8 @@ article {
   list-style-type: disc;
 }
 
-.bg-white-ul>li,
-.bg-white-ul>hr {
+.bg-white-ul > li,
+.bg-white-ul > hr {
   color: #9a9a9a;
   font-size: 12px;
   line-height: 20px;
@@ -445,13 +445,14 @@ footer {
   padding: 30px;
 }
 
-.footer-icons>i {
+.footer-icons > i {
   background-color: #333;
   border-radius: 50%;
   padding: 10px;
   color: white;
   font-size: 17px;
   margin-right: 17px;
+  cursor: pointer;
 }
 
 .f1-options {
@@ -459,8 +460,9 @@ footer {
   font-size: 15px;
 }
 
-.f1-options>p {
+.f1-options > p {
   margin-right: 14px;
+  cursor: pointer;
 }
 
 .footer-2 {
