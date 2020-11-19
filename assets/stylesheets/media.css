@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1170px) {
   .main-art {
     background-image: url("../img/darkbg.jpg");
   }
@@ -21,10 +21,6 @@
     font-weight: 400;
   }
 
-  .sec-2-grid {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
   .sec-3-div {
     flex-direction: column;
     align-items: flex-start;
@@ -39,15 +35,16 @@
     margin-right: 10px;
   }
 
+  .sec-2,
   .sec-3,
   .sec-5 {
     margin: 20px;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(270px, 1fr));
   }
 
   .sec-4 {
     margin: 20px;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(365px, 1fr));
   }
 
   .i-btn {
@@ -62,7 +59,7 @@
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 890px) {
   header {
     flex-direction: row;
   }
@@ -93,7 +90,7 @@
       "art2";
   }
 
-  .sec-2-grid,
+  .sec-2,
   .sec-3,
   .sec-4,
   .sec-5 {
@@ -118,6 +115,7 @@
     display: block;
     width: 70px;
     height: 70px;
+    margin-right: 10px;
   }
 
   .sec-2-title,
@@ -133,6 +131,12 @@
 
   .sec-5-img {
     margin-top: 0px;
-    margin-right: 10px;
+  }
+
+  .sec-2,
+  .sec-3,
+  .sec-4,
+  .sec-5 {
+    width: auto;
   }
 }
