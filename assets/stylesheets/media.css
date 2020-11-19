@@ -39,12 +39,12 @@
   .sec-3,
   .sec-5 {
     margin: 20px;
-    grid-template-columns: repeat(3, minmax(270px, 1fr));
+    grid-template-columns: repeat(3, minmax(225px,270px));
   }
 
   .sec-4 {
     margin: 20px;
-    grid-template-columns: repeat(2, minmax(365px, 1fr));
+    grid-template-columns: repeat(2, minmax(305px, 365px));
   }
 
   .i-btn {
