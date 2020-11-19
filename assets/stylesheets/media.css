@@ -178,11 +178,16 @@
   .sec5-h3 {
     grid-area: title;
     font-size: 13px;
+    margin-top: -4px;
   }
 
   .sec-2-author,
   .sec5-price {
     grid-area: author;
+  }
+
+  .sec4-hashtag {
+    margin-top: 10px;
   }
 
   .sec-5-img {
