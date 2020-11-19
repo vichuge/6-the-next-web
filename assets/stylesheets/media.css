@@ -85,17 +85,17 @@
 
 @media only screen and (max-width: 720px) {
   .nav-1 {
-    display:none;
+    display: none;
   }
 
-  .nav-2-left-p{
+  .nav-2-left-p {
     display: none;
   }
 
   .burger {
     display: block;
   }
-  
+
   .sec-1 {
     grid-template-columns: repeat(1, 1fr);
     grid-template-areas:
