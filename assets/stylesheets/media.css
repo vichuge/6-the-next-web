@@ -1,4 +1,4 @@
-@media only screen and (max-width: 1170px) {
+@media only screen and (max-width: 1024px) {
   .main-art {
     background-image: url("../img/darkbg.jpg");
   }
@@ -59,7 +59,7 @@
   }
 }
 
-@media only screen and (max-width: 890px) {
+@media only screen and (max-width: 720px) {
   header {
     flex-direction: row;
   }

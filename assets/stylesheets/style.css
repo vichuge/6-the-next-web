@@ -203,19 +203,18 @@ header {
 .sec-2, .sec-3, .sec-4, .sec-5 {
   display: grid;
   grid-gap: 25px;
+  justify-content: center;
 }
 
 .sec-2, .sec-3, .sec-5 {
   /*width: 270px;*/
   /*justify-items: center;*/
-  grid-template-columns: repeat(4, 1fr);
-  grid-auto-columns: 270px;
+  grid-template-columns: repeat(4, minmax(225px,270px));
+  /*grid-auto-columns: 270px;*/
 }
 
 .sec-4 {
-  width: 365px;
-  justify-items: center;
-  grid-template-columns: repeat(3, minmax(365px, 1fr));
+  grid-template-columns: repeat(3, minmax(305px, 365px));
 }
 
 .sec-2-article,
