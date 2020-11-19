@@ -6,136 +6,623 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="preconnect" class="nav-1-left" href="https://fonts.gstatic.com">
+    <link rel="preconnect" class="nav-1-left" href="https://fonts.gstatic.com">
+    <link rel="preconnect" class="nav-1-left" href="https://fonts.gstatic.com">
+    <link rel="preconnect" class="nav-1-left" href="https://fonts.gstatic.com">
+    <link class="nav-1-left" href="https://fonts.googleapis.com/css2?family=Goldman&family=Poppins&display=swap"
+        rel="stylesheet">
 
-    <link rel="stylesheet" href="assets/stylesheets/main.css">
-    <link rel="stylesheet" href="assets/stylesheets/style.css">
-    <link rel="stylesheet" href="assets/stylesheets/media.css">
+    <link rel="stylesheet" class="nav-1-left" href="assets/stylesheets/main.css">
+    <link rel="stylesheet" class="nav-1-left" href="assets/stylesheets/style.css">
+    <link rel="stylesheet" class="nav-1-left" href="assets/stylesheets/media.css">
 </head>
 
 <body>
     <header>
-        <nav>
-            <section class="left">
-                <p>News</p>
-                <p>News</p>
-                <p>News</p>
-                <p>News</p>
-                <p>News</p>
-                <p>News</p>
+        <nav class="nav-1">
+            <section class="nav-1-left flex">
+                <p><a class="nav-1-left-white a-no-dec" href="#">News</a></p>
+                <p><a class="nav-1-left-a gray-font a-no-dec" href="#">Events<i
+                            class="fas fa-angle-down nav-1-icon"></i></a></p>
+                <p><a class="nav-1-left-a gray-font a-no-dec" href="#">Business<i
+                            class="fas fa-angle-down nav-1-icon"></i></a></p>
+                <p><a class="nav-1-left-a gray-font a-no-dec" href="#">AMAs</a></p>
+                <p><a class="nav-1-left-a gray-font a-no-dec" href="#">Spaces</a></p>
+                <p><a class="nav-1-left-a gray-font a-no-dec" href="#">Terms & Conditions</a></p>
             </section>
-            <section class="right">
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
-                <p>About</p>
+            <section class="nav-1-right flex">
+                <p><a class="nav-1-right-a gray-font a-no-dec" href="#">About</a></p>
+                <p><a class="nav-1-right-a gray-font a-no-dec" href="#">Advertise</a></p>
+                <p><a class="nav-1-right-a gray-font a-no-dec" href="#">Jobs</a></p>
+                <p><a class="nav-1-right-a gray-font a-no-dec" href="#">Contact</a></p>
             </section>
         </nav>
-        <nav>
-            <section class="left">
-                <p>Latest</p>
-                <p>Latest</p>
-                <p>Latest</p>
-                <p>Latest</p>
-                <p>Latest</p>
-                <p>Latest</p>
-                <p>Latest</p>
+        <nav class="nav-2 flex">
+            <section class="nav-2-left flex">
+                <p><a class="nav-2-left-a gray-font a-no-dec" href="#">Latest</a></p>
+                <p><a class="nav-2-left-a gray-font a-no-dec" href="#">Hard fork</a></p>
+                <p><a class="nav-2-left-a gray-font a-no-dec" href="#">Plugged</a></p>
+                <p><a class="nav-2-left-a gray-font a-no-dec" href="#">Readme</a></p>
+                <p><a class="nav-2-left-a gray-font a-no-dec" href="#">Growth quarters</a></p>
+                <p><a class="nav-2-left-a gray-font a-no-dec" href="#">Shift</a></p>
+                <p><a class="nav-2-left-a gray-font a-no-dec" href="#">Neural</a></p>
             </section>
-            <section class="right">
+            <section class="nav-2-right">
                 <div class="icon-search">
-                    <p>
-                        <!-- Icon -->
-                    </p>
+                    <p><a href="#" class="a-no-dec search-a"><i class="fas fa-search"></i></a></p>
                 </div>
             </section>
         </nav>
     </header>
     <section class="sec-1">
-        <article class="main-art">
-            <img src="" alt="logo tnw">
-            <p class="date">Wednesday - Novermbe 18, 2020</p>
-            <h2 class="main-art-title">Google's new AI tool turns your terrible drawings into hideous monsters</h2>
-            <p class="main-art-author-date">by Thomas Macaulay 1 hour ago 4</p>
+        <article class="main-art" onclick="myFunction()">
+            <img class="logo-img" src="assets/img/tnw.png" alt="logo tnw">
+            <p class="main-art-date">Wednesday - Novermbe 18, 2020</p>
+            <p class="main-art-hashtag">Tech</p>
+            <p class="main-art-title">Google's new AI tool turns your terrible drawings into hideous monsters</p>
+            <p class="main-art-author-date">by Thomas Macaulay <i class="far fa-clock"></i>1 hour ago <i
+                    class="fas fa-share-alt"></i>4</p>
         </article>
-        <article>
-            <p class="hashtag">Apps</p>
-            <h2 class="main-art-title">Google's new AI tool turns your terrible drawings into hideous monsters</h2>
-            <p class="main-art-author-date">by Thomas Macaulay 1 hour ago 4</p>
+        <article class="sec1-art-1" onclick="myFunction()">
+            <p class="main-art-hashtag little-hashtag">Tech</p>
+            <p class="main-art-title little-title">Google's new AI tool turns your terrible drawings into hideous
+                monsters</p>
+            <p class="main-art-author-date little-author">by Thomas Macaulay <i class="far fa-clock"></i>1 hour ago <i
+                    class="fas fa-share-alt"></i>4</p>
+        </article>
+        <article class="sec1-art-2" onclick="myFunction()">
+            <p class="main-art-hashtag little-hashtag">Tech</p>
+            <p class="main-art-title little-title">Google's new AI tool turns your terrible drawings into hideous
+                monsters</p>
+            <p class="main-art-author-date little-author">by Thomas Macaulay <i class="far fa-clock"></i>1 hour ago <i
+                    class="fas fa-share-alt"></i>4</p>
         </article>
     </section>
     <section class="sec-2">
-        <h2>Latest news ></h2>
-        <article>
-            <img src="" alt="main img article section 2">
-            <h3>The FITT360 is the hands-free 4K 360 degree camera that lets you experience and capture life at the same
-                time</h3>
-            <p class="art-author-2">TNW Deals4 hours ago</p>
-        </article>
+        <h2>Latest news <i class="fas fa-angle-right"></i></h2>
+        <div class="sec-2-grid">
+            <article class="sec-2-article" onclick="myFunction()">
+                <img class="sec-2-img" src="assets/img/FITT360-540x270.jpg" alt="main img article section 2">
+                <p class="sec-2-title">The FITT360 is the hands-free 4K 360 degree camera that lets you experience and
+                    capture life at the
+                    same
+                    time</p>
+                <p class="sec-2-author">TNW Deals4 hours ago</p>
+            </article>
+            <article class="sec-2-article" onclick="myFunction()">
+                <img class="sec-2-img" src="assets/img/FITT360-540x270.jpg" alt="main img article section 2">
+                <p class="sec-2-title">The FITT360 is the hands-free 4K 360 degree camera that lets you experience and
+                    capture life at the
+                    same
+                    time</p>
+                <p class="sec-2-author">TNW Deals4 hours ago</p>
+            </article>
+            <article class="sec-2-article" onclick="myFunction()">
+                <img class="sec-2-img" src="assets/img/FITT360-540x270.jpg" alt="main img article section 2">
+                <p class="sec-2-title">The FITT360 is the hands-free 4K 360 degree camera that lets you experience and
+                    capture life at the
+                    same
+                    time</p>
+                <p class="sec-2-author">TNW Deals4 hours ago</p>
+            </article>
+            <article class="sec-2-article" onclick="myFunction()">
+                <img class="sec-2-img" src="assets/img/FITT360-540x270.jpg" alt="main img article section 2">
+                <p class="sec-2-title">The FITT360 is the hands-free 4K 360 degree camera that lets you experience and
+                    capture life at the
+                    same
+                    time</p>
+                <p class="sec-2-author">TNW Deals4 hours ago</p>
+            </article>
+            <article class="sec-2-article" onclick="myFunction()">
+                <img class="sec-2-img" src="assets/img/FITT360-540x270.jpg" alt="main img article section 2">
+                <p class="sec-2-title">The FITT360 is the hands-free 4K 360 degree camera that lets you experience and
+                    capture life at the
+                    same
+                    time</p>
+                <p class="sec-2-author">TNW Deals4 hours ago</p>
+            </article>
+            <article class="sec-2-article" onclick="myFunction()">
+                <img class="sec-2-img" src="assets/img/FITT360-540x270.jpg" alt="main img article section 2">
+                <p class="sec-2-title">The FITT360 is the hands-free 4K 360 degree camera that lets you experience and
+                    capture life at the
+                    same
+                    time</p>
+                <p class="sec-2-author">TNW Deals4 hours ago</p>
+            </article>
+            <article class="sec-2-article" onclick="myFunction()">
+                <img class="sec-2-img" src="assets/img/FITT360-540x270.jpg" alt="main img article section 2">
+                <p class="sec-2-title">The FITT360 is the hands-free 4K 360 degree camera that lets you experience and
+                    capture life at the
+                    same
+                    time</p>
+                <p class="sec-2-author">TNW Deals4 hours ago</p>
+            </article>
+            <article class="sec-2-article" onclick="myFunction()">
+                <img class="sec-2-img" src="assets/img/FITT360-540x270.jpg" alt="main img article section 2">
+                <p class="sec-2-title">The FITT360 is the hands-free 4K 360 degree camera that lets you experience and
+                    capture life at the
+                    same
+                    time</p>
+                <p class="sec-2-author">TNW Deals4 hours ago</p>
+            </article>
+        </div>
     </section>
     <section class="sec-3">
-        <h2 class="h-sec3-left">Latest funding rouns on Index.co ></h2>
-        <div class="div-sec3-right">
-            <p>Add info</p>
-            <p>|</p>
-            <p>Get updates by email</p>
-            <p>|</p>
-            <p>See more</p>
+        <div class="sec-3-div flex">
+            <h2 class="h-sec3-left">Latest funding rouns on Index.co ></h2>
+            <div class="div-sec3-right flex">
+                <p><a class="a-no-dec" href="#">Add info</a></p>
+                <p>|</p>
+                <p><a class="a-no-dec" href="#">Get update by email</a></p>
+                <p>|</p>
+                <p><a class="a-no-dec" href="#">See more</a></p>
+            </div>
         </div>
-        <article>
-            <div class="header-3">
-                <img src="" alt="left image header 3">
-                <h3>True balance</h3>
-                <p>$ 28M</p>
-                <p>Series D</p>
+        <article class="sec-3-article">
+            <div class="sec-3-header">
+                <img class="sec-3-img" src="assets/img/image.jpg" alt="left image header 3">
+                <div class="sec-3-header-1">
+                    <p>True balance</p>
+                </div>
+                <div class="sec-3-header-2">
+                    <p class="sec-3-hp2">$ 28M</p>
+                    <p class="sec-3-hp3">Series D</p>
+                </div>
             </div>
-            <div class="body-3">
-                <p>Mobile, +2</p>
-                <p>Shinhan Capital, +4</p>
+            <div class="sec-3-body">
+                <p class="sec-3-p1"><i class="fas fa-tag sec-3-tag"></i>Mobile, +2</p>
+                <p class="sec-3-p1 m-top"><i class="fas fa-toolbox sec-3-tag"></i>Shinhan Capital, +4</p>
+                <hr class="hr1">
+                <p onClick="myFunction()" class="sec-3-p2">Payments app True Balance raises $28 million to reach more
+                    underbanked users in India <span>on
+                        TechCrunch</span></p>
             </div>
-            <div class="footer-3">
-                <p>Payments app True Balance raises $28 million to reach more underbanked users in India <span>on
+        </article>
+        <article class="sec-3-article">
+            <div class="sec-3-header">
+                <img class="sec-3-img" src="assets/img/image.jpg" alt="left image header 3">
+                <div class="sec-3-header-1">
+                    <p>True balance</p>
+                </div>
+                <div class="sec-3-header-2">
+                    <p class="sec-3-hp2">$ 28M</p>
+                    <p class="sec-3-hp3">Series D</p>
+                </div>
+            </div>
+            <div class="sec-3-body">
+                <p class="sec-3-p1"><i class="fas fa-tag sec-3-tag"></i>Mobile, +2</p>
+                <p class="sec-3-p1 m-top"><i class="fas fa-toolbox sec-3-tag"></i>Shinhan Capital, +4</p>
+                <hr class="hr1">
+                <p onClick="myFunction()" class="sec-3-p2">Payments app True Balance raises $28 million to reach more
+                    underbanked users in India <span>on
+                        TechCrunch</span></p>
+            </div>
+        </article>
+        <article class="sec-3-article">
+            <div class="sec-3-header">
+                <img class="sec-3-img" src="assets/img/image.jpg" alt="left image header 3">
+                <div class="sec-3-header-1">
+                    <p>True balance</p>
+                </div>
+                <div class="sec-3-header-2">
+                    <p class="sec-3-hp2">$ 28M</p>
+                    <p class="sec-3-hp3">Series D</p>
+                </div>
+            </div>
+            <div class="sec-3-body">
+                <p class="sec-3-p1"><i class="fas fa-tag sec-3-tag"></i>Mobile, +2</p>
+                <p class="sec-3-p1 m-top"><i class="fas fa-toolbox sec-3-tag"></i>Shinhan Capital, +4</p>
+                <hr class="hr1">
+                <p onClick="myFunction()" class="sec-3-p2">Payments app True Balance raises $28 million to reach more
+                    underbanked users in India <span>on
+                        TechCrunch</span></p>
+            </div>
+        </article>
+        <article class="sec-3-article">
+            <div class="sec-3-header">
+                <img class="sec-3-img" src="assets/img/image.jpg" alt="left image header 3">
+                <div class="sec-3-header-1">
+                    <p>True balance</p>
+                </div>
+                <div class="sec-3-header-2">
+                    <p class="sec-3-hp2">$ 28M</p>
+                    <p class="sec-3-hp3">Series D</p>
+                </div>
+            </div>
+            <div class="sec-3-body">
+                <p class="sec-3-p1"><i class="fas fa-tag sec-3-tag"></i>Mobile, +2</p>
+                <p class="sec-3-p1 m-top"><i class="fas fa-toolbox sec-3-tag"></i>Shinhan Capital, +4</p>
+                <hr class="hr1">
+                <p onClick="myFunction()" class="sec-3-p2">Payments app True Balance raises $28 million to reach more
+                    underbanked users in India <span>on
                         TechCrunch</span></p>
             </div>
         </article>
     </section>
     <section class="sec-4">
-        <article>
+        <article class="article-sec-4" onclick="myFunction()">
             <h2>Hard fork ></h2>
-            <div class="bg-img">
-                <p class="hashtag">Most popular</p>
-                <h2 class="main-art-title">Researchers developed 'explainable' AI to help diagnose and treat at-risk
-                    children</h2>
-                <p class="main-art-author-date">Tristan Greene19 hours ago</p>
+            <div class="sec1-art-1">
+                <p class="main-art-hashtag sec4-hashtag">Tech</p>
+                <p class="main-art-title sec4-title">Google's new AI tool turns your terrible drawings into hideous
+                    monsters</p>
+                <p class="main-art-author-date sec4-author">by Thomas Macaulay - 1 hour ago</p>
             </div>
             <div class="bg-orange">
-                <h3>Latest</h3>
-                <p>Elon who? Tesla's Chinese rival NIO is up 1,200% this year</p>
-                <img src="" alt="body image section 4">
+                <div class="flex bg-orange-flex">
+                    <div class="bg-orange-left">
+                        <h3 class="goldman">Latest</h3>
+                        <p class="sec-4-p1">Elon who? Tesla's Chinese rival NIO is up 1,200% this year</p>
+                    </div>
+                    <div class="bg-orange-right">
+                        <img class="bg-orange-img" src="assets/img/square.jpg" alt="body image section 4">
+                    </div>
+                </div>
             </div>
             <div class="bg-white">
-                <ul>
+                <ul class="bg-white-ul">
                     <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
                     <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
                     <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
                     <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
                     <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                </ul>
+            </div>
+        </article>
+        <article class="article-sec-4" onclick="myFunction()">
+            <h2>Hard fork ></h2>
+            <div class="sec1-art-1">
+                <p class="main-art-hashtag sec4-hashtag">Tech</p>
+                <p class="main-art-title sec4-title">Google's new AI tool turns your terrible drawings into hideous
+                    monsters</p>
+                <p class="main-art-author-date sec4-author">by Thomas Macaulay - 1 hour ago</p>
+            </div>
+            <div class="bg-orange">
+                <div class="flex bg-orange-flex">
+                    <div class="bg-orange-left">
+                        <h3 class="goldman">Latest</h3>
+                        <p class="sec-4-p1">Elon who? Tesla's Chinese rival NIO is up 1,200% this year</p>
+                    </div>
+                    <div class="bg-orange-right">
+                        <img class="bg-orange-img" src="assets/img/square.jpg" alt="body image section 4">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white">
+                <ul class="bg-white-ul">
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                </ul>
+            </div>
+        </article>
+        <article class="article-sec-4" onclick="myFunction()">
+            <h2>Hard fork ></h2>
+            <div class="sec1-art-1">
+                <p class="main-art-hashtag sec4-hashtag">Tech</p>
+                <p class="main-art-title sec4-title">Google's new AI tool turns your terrible drawings into hideous
+                    monsters</p>
+                <p class="main-art-author-date sec4-author">by Thomas Macaulay - 1 hour ago</p>
+            </div>
+            <div class="bg-orange">
+                <div class="flex bg-orange-flex">
+                    <div class="bg-orange-left">
+                        <h3 class="goldman">Latest</h3>
+                        <p class="sec-4-p1">Elon who? Tesla's Chinese rival NIO is up 1,200% this year</p>
+                    </div>
+                    <div class="bg-orange-right">
+                        <img class="bg-orange-img" src="assets/img/square.jpg" alt="body image section 4">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white">
+                <ul class="bg-white-ul">
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                </ul>
+            </div>
+        </article>
+        <article class="article-sec-4" onclick="myFunction()">
+            <h2>Hard fork ></h2>
+            <div class="sec1-art-1">
+                <p class="main-art-hashtag sec4-hashtag">Tech</p>
+                <p class="main-art-title sec4-title">Google's new AI tool turns your terrible drawings into hideous
+                    monsters</p>
+                <p class="main-art-author-date sec4-author">by Thomas Macaulay - 1 hour ago</p>
+            </div>
+            <div class="bg-orange">
+                <div class="flex bg-orange-flex">
+                    <div class="bg-orange-left">
+                        <h3 class="goldman">Latest</h3>
+                        <p class="sec-4-p1">Elon who? Tesla's Chinese rival NIO is up 1,200% this year</p>
+                    </div>
+                    <div class="bg-orange-right">
+                        <img class="bg-orange-img" src="assets/img/square.jpg" alt="body image section 4">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white">
+                <ul class="bg-white-ul">
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                </ul>
+            </div>
+        </article>
+        <article class="article-sec-4" onclick="myFunction()">
+            <h2>Hard fork ></h2>
+            <div class="sec1-art-1">
+                <p class="main-art-hashtag sec4-hashtag">Tech</p>
+                <p class="main-art-title sec4-title">Google's new AI tool turns your terrible drawings into hideous
+                    monsters</p>
+                <p class="main-art-author-date sec4-author">by Thomas Macaulay - 1 hour ago</p>
+            </div>
+            <div class="bg-orange">
+                <div class="flex bg-orange-flex">
+                    <div class="bg-orange-left">
+                        <h3 class="goldman">Latest</h3>
+                        <p class="sec-4-p1">Elon who? Tesla's Chinese rival NIO is up 1,200% this year</p>
+                    </div>
+                    <div class="bg-orange-right">
+                        <img class="bg-orange-img" src="assets/img/square.jpg" alt="body image section 4">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white">
+                <ul class="bg-white-ul">
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                </ul>
+            </div>
+        </article>
+        <article class="article-sec-4" onclick="myFunction()">
+            <h2>Hard fork ></h2>
+            <div class="sec1-art-1">
+                <p class="main-art-hashtag sec4-hashtag">Tech</p>
+                <p class="main-art-title sec4-title">Google's new AI tool turns your terrible drawings into hideous
+                    monsters</p>
+                <p class="main-art-author-date sec4-author">by Thomas Macaulay - 1 hour ago</p>
+            </div>
+            <div class="bg-orange">
+                <div class="flex bg-orange-flex">
+                    <div class="bg-orange-left">
+                        <h3 class="goldman">Latest</h3>
+                        <p class="sec-4-p1">Elon who? Tesla's Chinese rival NIO is up 1,200% this year</p>
+                    </div>
+                    <div class="bg-orange-right">
+                        <img class="bg-orange-img" src="assets/img/square.jpg" alt="body image section 4">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white">
+                <ul class="bg-white-ul">
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                </ul>
+            </div>
+        </article>
+        <article class="article-sec-4" onclick="myFunction()">
+            <h2>Hard fork ></h2>
+            <div class="sec1-art-1">
+                <p class="main-art-hashtag sec4-hashtag">Tech</p>
+                <p class="main-art-title sec4-title">Google's new AI tool turns your terrible drawings into hideous
+                    monsters</p>
+                <p class="main-art-author-date sec4-author">by Thomas Macaulay - 1 hour ago</p>
+            </div>
+            <div class="bg-orange">
+                <div class="flex bg-orange-flex">
+                    <div class="bg-orange-left">
+                        <h3 class="goldman">Latest</h3>
+                        <p class="sec-4-p1">Elon who? Tesla's Chinese rival NIO is up 1,200% this year</p>
+                    </div>
+                    <div class="bg-orange-right">
+                        <img class="bg-orange-img" src="assets/img/square.jpg" alt="body image section 4">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white">
+                <ul class="bg-white-ul">
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                </ul>
+            </div>
+        </article>
+        <article class="article-sec-4" onclick="myFunction()">
+            <h2>Hard fork ></h2>
+            <div class="sec1-art-1">
+                <p class="main-art-hashtag sec4-hashtag">Tech</p>
+                <p class="main-art-title sec4-title">Google's new AI tool turns your terrible drawings into hideous
+                    monsters</p>
+                <p class="main-art-author-date sec4-author">by Thomas Macaulay - 1 hour ago</p>
+            </div>
+            <div class="bg-orange">
+                <div class="flex bg-orange-flex">
+                    <div class="bg-orange-left">
+                        <h3 class="goldman">Latest</h3>
+                        <p class="sec-4-p1">Elon who? Tesla's Chinese rival NIO is up 1,200% this year</p>
+                    </div>
+                    <div class="bg-orange-right">
+                        <img class="bg-orange-img" src="assets/img/square.jpg" alt="body image section 4">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white">
+                <ul class="bg-white-ul">
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                </ul>
+            </div>
+        </article>
+        <article class="article-sec-4" onclick="myFunction()">
+            <h2>Hard fork ></h2>
+            <div class="sec1-art-1">
+                <p class="main-art-hashtag sec4-hashtag">Tech</p>
+                <p class="main-art-title sec4-title">Google's new AI tool turns your terrible drawings into hideous
+                    monsters</p>
+                <p class="main-art-author-date sec4-author">by Thomas Macaulay - 1 hour ago</p>
+            </div>
+            <div class="bg-orange">
+                <div class="flex bg-orange-flex">
+                    <div class="bg-orange-left">
+                        <h3 class="goldman">Latest</h3>
+                        <p class="sec-4-p1">Elon who? Tesla's Chinese rival NIO is up 1,200% this year</p>
+                    </div>
+                    <div class="bg-orange-right">
+                        <img class="bg-orange-img" src="assets/img/square.jpg" alt="body image section 4">
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white">
+                <ul class="bg-white-ul">
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
+                    <li>Tencent bounces hard after President Xi spooks market into $200B tech selloff</li>
+                    <hr>
                 </ul>
             </div>
         </article>
     </section>
-    <section-sec-5>
-        <h2>Latest deals ></h2>
+    <section class="sec-5">
+        <h2 class="sec-5-h2">Latest deals ></h2>
         <article>
-            <img src="" alt="latest deals img">
-            <h3>The essential enterprise cloud computing engineer bundle</h3>
-            <p>$800</p>
-            <p>$29.99</p>
+            <img class="sec-5-img" src="assets/img/square.jpg" alt="latest deals img">
+            <h3 class="sec5-h3">The essential enterprise cloud computing engineer bundle</h3>
+            <div class="sec5-price flex">
+                <p class="price-1">$800</p>
+                <p class="price-2">$29.99</p>
+            </div>
+
         </article>
-    </section-sec-5>
+        <article>
+            <img class="sec-5-img" src="assets/img/square.jpg" alt="latest deals img">
+            <h3 class="sec5-h3">The essential enterprise cloud computing engineer bundle</h3>
+            <div class="sec5-price flex">
+                <p class="price-1">$800</p>
+                <p class="price-2">$29.99</p>
+            </div>
+
+        </article>
+        <article>
+            <img class="sec-5-img" src="assets/img/square.jpg" alt="latest deals img">
+            <h3 class="sec5-h3">The essential enterprise cloud computing engineer bundle</h3>
+            <div class="sec5-price flex">
+                <p class="price-1">$800</p>
+                <p class="price-2">$29.99</p>
+            </div>
+
+        </article>
+        <article>
+            <img class="sec-5-img" src="assets/img/square.jpg" alt="latest deals img">
+            <h3 class="sec5-h3">The essential enterprise cloud computing engineer bundle</h3>
+            <div class="sec5-price flex">
+                <p class="price-1">$800</p>
+                <p class="price-2">$29.99</p>
+            </div>
+
+        </article>
+        <article>
+            <img class="sec-5-img" src="assets/img/square.jpg" alt="latest deals img">
+            <h3 class="sec5-h3">The essential enterprise cloud computing engineer bundle</h3>
+            <div class="sec5-price flex">
+                <p class="price-1">$800</p>
+                <p class="price-2">$29.99</p>
+            </div>
+
+        </article>
+        <article>
+            <img class="sec-5-img" src="assets/img/square.jpg" alt="latest deals img">
+            <h3 class="sec5-h3">The essential enterprise cloud computing engineer bundle</h3>
+            <div class="sec5-price flex">
+                <p class="price-1">$800</p>
+                <p class="price-2">$29.99</p>
+            </div>
+
+        </article>
+        <article>
+            <img class="sec-5-img" src="assets/img/square.jpg" alt="latest deals img">
+            <h3 class="sec5-h3">The essential enterprise cloud computing engineer bundle</h3>
+            <div class="sec5-price flex">
+                <p class="price-1">$800</p>
+                <p class="price-2">$29.99</p>
+            </div>
+
+        </article>
+        <article>
+            <img class="sec-5-img" src="assets/img/square.jpg" alt="latest deals img">
+            <h3 class="sec5-h3">The essential enterprise cloud computing engineer bundle</h3>
+            <div class="sec5-price flex">
+                <p class="price-1">$800</p>
+                <p class="price-2">$29.99</p>
+            </div>
+
+        </article>
+    </section>
     <footer>
         <section class="footer-1">
             <div class="footer-icons">
@@ -157,6 +644,8 @@
                 <!--Icon--> in Amsterdam. Powered by StackPath</p>
         </section>
     </footer>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 
 </html>
