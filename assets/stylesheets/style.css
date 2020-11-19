@@ -114,7 +114,6 @@ header {
 .sec1-art-2 {
   cursor: pointer;
   background-image:
-    /*url("../img/img-gradient-black.png"),*/
     url("../img/darkbg.jpg");
 }
 
@@ -129,7 +128,6 @@ header {
 
 .sec1-art-1 {
   grid-area: art1;
-  align-items: flex-end;
 }
 
 .sec1-art-2 {
