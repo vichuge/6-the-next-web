@@ -1,10 +1,138 @@
 @media only screen and (max-width: 1024px) {
+  .main-art {
+    background-image: url("../img/darkbg.jpg");
+  }
 
+  .logo-img {
+    display: none;
+  }
+
+  .main-art-date {
+    grid-column: 1 / -1;
+  }
+
+  .main-art-title {
+    font-size: 35px;
+    font-weight: 400;
+  }
+
+  .little-title {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .sec-2-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sec-3-div {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+
+  .div-sec3-right {
+    margin-top: 10px;
+  }
+
+  .div-sec3-right>* {
+    margin-right: 10px;
+  }
+
+  .sec-3,
+  .sec-5 {
+    margin: 20px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .sec-4 {
+    margin: 20px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .i-btn {
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    color: white;
+    background-color: #146ff8;
+    padding: 5px 5px;
+    font-size: 25px;
+    border-radius: 0%;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-    
+  header {
+    flex-direction: row;
+  }
+
+  .nav-1,
+  .nav-1-left,
+  .nav-1-right,
+  .nav-2-left {
+    flex-direction: column;
+  }
+
+  .nav-1>*,
+  .nav-1-left>*,
+  .nav-1-right>*,
+  .nav-2-left>* {
+    margin: 5px 0;
+  }
+
+  .nav-2-right {
+    display: none;
+  }
+
+  .sec-1 {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-areas:
+      "main"
+      "art1"
+      "art2";
+  }
+
+  .sec-2-grid,
+  .sec-3,
+  .sec-4,
+  .sec-5 {
+    margin: 20px;
+    grid-template-columns: 1fr;
+  }
+
+  .sec-2-article,
+  .sec5-article {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    grid-template-areas:
+      "img title"
+      "img author"
+    ;
+    max-width: none;
+  }
+
+  .sec-2-img,
+  .sec-5-img {
+    grid-area: img;
+    display: block;
+    width: 70px;
+    height: 70px;
+  }
+
+  .sec-2-title,
+  .sec5-h3 {
+    grid-area: title;
+    font-size: 13px;
+  }
+
+  .sec-2-author,
+  .sec5-price {
+    grid-area: author;
+  }
+
+  .sec-5-img {
+    margin-top: 0px;
+    margin-right: 10px;
+  }
 }
-
-
-
