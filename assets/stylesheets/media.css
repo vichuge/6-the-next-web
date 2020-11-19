@@ -3,6 +3,10 @@
     grid-column: 1 / -1;
   }
 
+  .main-art-hashtag {
+    margin-top: 20px;
+  }
+
   .main-art-title {
     font-size: 35px;
     font-weight: 400;
@@ -153,5 +157,9 @@
 
   .sec-5-img {
     margin-top: 0;
+  }
+
+  .footer-icons > i, .f1-options > p {
+    margin-right: 5px;
   }
 }
