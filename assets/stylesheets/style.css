@@ -444,6 +444,7 @@ footer {
 .footer-icons {
   justify-content: center;
   padding: 30px;
+  flex-wrap: wrap;
 }
 
 .footer-icons > i {
@@ -459,6 +460,7 @@ footer {
 .f1-options {
   justify-content: center;
   font-size: 15px;
+  flex-wrap: wrap;
 }
 
 .f1-options > p {
