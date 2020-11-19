@@ -233,7 +233,8 @@ article {
   justify-self: center;
 }
 
-.sec-2-img, .sec-5-img {
+.sec-2-img,
+.sec-5-img {
   width: 100%;
   height: auto;
 }
